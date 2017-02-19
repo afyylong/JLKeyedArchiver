@@ -15,6 +15,8 @@
 		132C88931E592DA300C9C9B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 132C88911E592DA300C9C9B9 /* LaunchScreen.storyboard */; };
 		132C889E1E592DA300C9C9B9 /* JLKeyedArchiverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 132C889D1E592DA300C9C9B9 /* JLKeyedArchiverTests.m */; };
 		132C88A91E592DA300C9C9B9 /* JLKeyedArchiverUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 132C88A81E592DA300C9C9B9 /* JLKeyedArchiverUITests.m */; };
+		132C88BE1E593CC600C9C9B9 /* JLObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 132C88BD1E593CC600C9C9B9 /* JLObject.m */; };
+		132C88C11E593D4500C9C9B9 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 132C88C01E593D4500C9C9B9 /* Student.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		132C88A41E592DA300C9C9B9 /* JLKeyedArchiverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JLKeyedArchiverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		132C88A81E592DA300C9C9B9 /* JLKeyedArchiverUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLKeyedArchiverUITests.m; sourceTree = "<group>"; };
 		132C88AA1E592DA300C9C9B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		132C88BC1E593CC600C9C9B9 /* JLObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLObject.h; sourceTree = "<group>"; };
+		132C88BD1E593CC600C9C9B9 /* JLObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLObject.m; sourceTree = "<group>"; };
+		132C88BF1E593D4500C9C9B9 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		132C88C01E593D4500C9C9B9 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,10 @@
 			children = (
 				132C88861E592DA300C9C9B9 /* AppDelegate.h */,
 				132C88871E592DA300C9C9B9 /* AppDelegate.m */,
+				132C88BC1E593CC600C9C9B9 /* JLObject.h */,
+				132C88BD1E593CC600C9C9B9 /* JLObject.m */,
+				132C88BF1E593D4500C9C9B9 /* Student.h */,
+				132C88C01E593D4500C9C9B9 /* Student.m */,
 				132C88891E592DA300C9C9B9 /* ViewController.h */,
 				132C888A1E592DA300C9C9B9 /* ViewController.m */,
 				132C888C1E592DA300C9C9B9 /* Main.storyboard */,
@@ -274,8 +284,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				132C888B1E592DA300C9C9B9 /* ViewController.m in Sources */,
+				132C88BE1E593CC600C9C9B9 /* JLObject.m in Sources */,
 				132C88881E592DA300C9C9B9 /* AppDelegate.m in Sources */,
 				132C88851E592DA300C9C9B9 /* main.m in Sources */,
+				132C88C11E593D4500C9C9B9 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

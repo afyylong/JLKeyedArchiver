@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Student.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,31 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
+  
+    Student *p = [[Student alloc] init];
+    p.name = @"xiaomingggg";
+    NSString *path = NSTemporaryDirectory();
+    NSString *filePath = [path stringByAppendingPathComponent:@"person.txt"];
+    NSLog(@"path:%@",filePath);
+    //保存
+    [NSKeyedArchiver archiveRootObject:p toFile:filePath];
+    
+    
+    //读取
+    Student *pp = [NSKeyedUnarchiver unarchiveObjectWithFile:filePath];
+    NSLog(@"p的name:%@",pp.name);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 }
 
 
